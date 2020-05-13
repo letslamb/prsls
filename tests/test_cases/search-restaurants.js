@@ -1,6 +1,6 @@
 const { init } = require('../steps/init')
 const when = require('../steps/when')
-const tearDown = require('../steps/tearDown')
+const tearDown = require('../steps/teardown')
 const given = require('../steps/given')
 console.log = jest.fn()
 
