@@ -1,6 +1,6 @@
 const when = require('../steps/when')
 const given = require('../steps/given')
-const tearDown = require('../steps/tearDown')
+const tearDown = require('../steps/teardown')
 const { init } = require('../steps/init')
 const AWS = require('aws-sdk')
 console.log = jest.fn()
